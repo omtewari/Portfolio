@@ -9,9 +9,9 @@ const Navbar = () => {
             <img src={logo} alt="logo" />
         </div>
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-            <FaLinkedin/>
-            <FaSquareXTwitter/>
-            <FaGithub/>
+            <a href="https://www.linkedin.com/in/om-tewari-1b0b78201/ " target="blank"><FaLinkedin/></a>
+            <a href="https://x.com/OTewari1006" target="blank"><FaSquareXTwitter/></a>
+            <a href="https://github.com/omtewari" target="blank"><FaGithub/></a>
         </div>
     </nav>
   )
