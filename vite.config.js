@@ -3,19 +3,21 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
+  server: {
+    port: process.env.PORT || 3000, // Default to 3000 if PORT is not set
+    host: true,
+  },
   build: {
     rollupOptions: {
       external: [
-        'react',                // React itself
-        'react-dom',            // React DOM
-        'react-icons/fa',       // FontAwesome icons
-        'framer-motion',        // Framer Motion
-        'axios',                // Axios for HTTP requests
-        'lodash',               // Lodash utility library
-        'moment',
-        'react-icons/fa6'               // Moment.js for date/time handling
-        // Add other external modules as needed
+        'react',
+        'react-dom',
+        'react-icons/fa',
+        'framer-motion',
+        'axios',
+        'lodash',
+        'moment'
       ],
     },
   },
-})
+});
