@@ -15,6 +15,7 @@ export const PROJECTS = [
   },
   {
     title: "Simon Says Game",
+    link:"https://omtewari.github.io/simon-says-game/",
     image: project2,
     description:
       "Simon Says is a classic memory and pattern recognition game enjoyed by children and adults alike.",
