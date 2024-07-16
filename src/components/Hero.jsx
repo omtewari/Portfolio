@@ -1,4 +1,5 @@
 import { motion } from "framer-motion"
+import img from "../assets/img.jpg"
 
 const container= (delay)=>({
   hidden: { x:-100, opacity:0 },
@@ -43,7 +44,7 @@ const Hero = () => {
               initial={{x:100,opacity:0}}
               animate={{x:0, opacity:1}}
               transition={{duration:1,delay:1}}
-              src="" alt="Profile Pic" />
+              src={img} alt="Profile Pic" />
             </div>
             </div>
         </div>
