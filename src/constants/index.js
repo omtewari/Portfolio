@@ -1,6 +1,7 @@
 import project1 from "../assets/project-1.jpg";
 import project2 from "../assets/project-2.jpg";
 import project3 from "../assets/project-3.jpg";
+import project4 from "../assets/project-4.png";
 
 
 
@@ -29,6 +30,14 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React","Tailwind"],
   },
   
+  {
+    title: "Music NextJs-frontend",
+    link:"https://music-nextjs-frontend-1.onrender.com",
+    image: project4, // Replace with the actual image variable or path
+    description:
+      "A music app frontend built with Next.js, featuring a modern interface, dynamic content, and optimized performance using TypeScript and Tailwind CSS.",
+    technologies: ["Next.js", "React", "Tailwind CSS","TypeScript"]// Replace Vercel with the actual deployment platform if different
+  }
 ];
 
 export const CONTACT = {

@@ -4,6 +4,9 @@ import {SiMongodb} from "react-icons/si"
 import {SiExpress} from "react-icons/si"
 import { FaRobot } from "react-icons/fa";
 import { FaJsSquare } from "react-icons/fa";
+import { RiNextjsFill } from "react-icons/ri";
+
+
 import { motion } from "framer-motion"
 
 const iconsVariants=(duration)=>({
@@ -78,6 +81,15 @@ const Technologies = () => {
          className="rounded-2xl border-4 border-neutral-800 p-4">
         <FaJsSquare className='text-7xl text-yellow-400'/>
         </motion.div>
+
+        <motion.div 
+        variants={iconsVariants(2)}
+         initial="innitial"
+         animate="animate"
+         className="rounded-2xl border-4 border-neutral-800 p-4">
+        <RiNextjsFill className='text-7xl text-white'/>
+        </motion.div>
+
       </motion.div>
     </div>
   )
